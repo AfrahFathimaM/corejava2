@@ -16,6 +16,12 @@ public static void main(String [] args) {
 	int income=obj.nextInt();
 	person per=new person();
 	per.setName(name);
+	per.setIncome(income);
+	calculation cal=new calculation();
+	cal.clas(per);
+	System.out.println("after calculation , the tax is");
+	System.out.println(per);
+	
 }
 
 
