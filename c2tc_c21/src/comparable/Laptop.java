@@ -33,6 +33,9 @@ public class Laptop implements Comparable<Laptop>{
 		this.ram = ram;
 		this.price = price;
 	}
+	
+	
+	
 	@Override
 	public int compareTo(Laptop o) {
 		// TODO Auto-generated method stub
