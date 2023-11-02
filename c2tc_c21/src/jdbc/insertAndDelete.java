@@ -17,6 +17,10 @@ public class insertAndDelete {
 				System.out.println("the sql statement is"+sqldelete+"\n");
 				int c=st.executeUpdate(sqldelete);
 				System.out.println(c+"record deleted\n");
+				String sqlInsert1="insert into aff values('kumudha',20)";
+				System.out.println("the sql statement is"+sqlInsert1+"\n");
+				int count2=st.executeUpdate(sqlInsert1);
+				System.out.println(count2+"records inserted into aff\n");
 			}
 			}
 		catch(SQLException e){
